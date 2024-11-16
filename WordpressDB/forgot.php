@@ -18,7 +18,7 @@ include 'forgotphp.php';
     <div class="card" style="width: 700px;">
   <div class="card-body">
     <h1 style="text-align:center;" class="text-primary">اتاق ورود</h1><br>
-<form method="GET" action="http://blueuserswordpress.000.pe/wp-content/themes/twentytwentytwo/forgotphp.php">
+<form method="GET" action="wp-content/themes/twentytwentytwo/forgotphp.php">
 <input type="hidden" name="action" value="update_password"> 
     <div class="form-group">
         <div class="input-group mb-3">
@@ -47,7 +47,7 @@ include 'forgotphp.php';
     </div>
               <br>
     <input type="submit" value="ذخیره پسورد" style="width:600px;" class="btn btn-primary btn-lg btn-block container-fluid d-flex align-items-center justify-content-center">
-<a style="padding: 10px;" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover container-fluid d-flex align-items-center justify-content-center" href="http://blueuserswordpress.000.pe/ورود">ورود</a>
+<a style="padding: 10px;" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover container-fluid d-flex align-items-center justify-content-center" href="ورود">ورود</a>
 </form>
 </div>
 </div>
