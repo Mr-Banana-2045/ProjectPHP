@@ -1,10 +1,10 @@
 <?php
 class Start {
     private $connection;
-    private $host = 'sql311.infinityfree.com';
-    private $user = 'if0_37718715';
-    private $pass = 'c881FNW7LC4';
-    private $datadb = 'if0_37718715_wp242';
+    private $host = 'localhost';
+    private $user = 'root';
+    private $pass = '';
+    private $datadb = 'wordpress';
 
     public function __construct() {
         $this->connection = new mysqli($this->host, $this->user, $this->pass, $this->datadb);
@@ -56,7 +56,7 @@ if (isset($_GET['name']) && isset($_GET['family']) && isset($_GET['score'])) {
     $users = new Human($_GET['name'], $_GET['family'], (int)$_GET['score']);
     if ($connection->checkUserExists($users->family)) {
         if ($connection->save($users)) {
-            header("Location: http://blueuserswordpress.000.pe/account/");
+            header("Location: account/");
             exit();
         } else {
             echo 'Error saving data';
