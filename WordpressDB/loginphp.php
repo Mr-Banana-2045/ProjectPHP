@@ -76,10 +76,10 @@ if (isset($_GET['pish']) && isset($_GET['user']) && isset($_GET['password'])) {
         if ($connection->authenticate($user, $password, $role)) {
             $_SESSION['username'] = $user;
              if (in_array($role, ["مدیر", "معاون", "مدیریت"])) {
-                header("Location: http://blueuserswordpress.000.pe/wp-content/themes/twentytwentytwo/score.php");
+                header("Location: /wp-content/themes/twentytwentytwo/score.php");
                 exit();
             } else {
-                header("Location: http://blueuserswordpress.000.pe/account/");
+                header("Location: /account/");
                 exit();
             }
         } else {
