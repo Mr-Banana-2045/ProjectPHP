@@ -17,7 +17,7 @@ include 'loginphp.php';
     <div class="card" style="width: 700px;">
   <div class="card-body">
     <h1 style="text-align:center;" class="text-primary">اتاق ورود</h1><br>
-<form method="GET" action="http://blueuserswordpress.000.pe/wp-content/themes/twentytwentytwo/loginphp.php">
+<form method="GET" action="wp-content/themes/twentytwentytwo/loginphp.php">
 <input type="hidden" name="action" value="login">
 <div class="form-group">
 <div class="input-group mb-3">
@@ -47,7 +47,7 @@ include 'loginphp.php';
 </div>
 </div>
 <input type="submit" value="ورود" style="width:600px;" class="btn btn-primary btn-lg btn-block container-fluid d-flex align-items-center justify-content-center">
-<a style="padding-top: 10px;" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover container-fluid d-flex align-items-center justify-content-center" href="http://blueuserswordpress.000.pe/wp-content/themes/twentytwentytwo/forgot.php">فراموشی رمز</a>
+<a style="padding-top: 10px;" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover container-fluid d-flex align-items-center justify-content-center" href="wp-content/themes/twentytwentytwo/forgot.php">فراموشی رمز</a>
 <a style="padding-top: 10px;" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover container-fluid d-flex align-items-center justify-content-center" href="فرم-ثبت-نام/">ثبت نام</a>
 </form>
 </div>
