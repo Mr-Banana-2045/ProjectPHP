@@ -3,10 +3,10 @@
  * Plugin Name: فرم نمره
  */
 function scores() {
-    $host = 'sql311.infinityfree.com';
-    $user = 'if0_37718715';
-    $pass = 'c881FNW7LC4';
-    $datadb = 'if0_37718715_wp242';
+    $host = 'localhost';
+    $user = 'root';
+    $pass = '';
+    $datadb = 'wordpress';
     
     $connection = new mysqli($host, $user, $pass, $datadb);
     
