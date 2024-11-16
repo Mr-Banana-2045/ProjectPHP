@@ -14,7 +14,7 @@ include 'scorephp.php';
     <div class="card" style="width: 700px;">
   <div class="card-body">
     <h1 style="text-align:center;" class="text-primary">اتاق ثبت نمره</h1><br>
-<form method="GET" action="http://blueuserswordpress.000.pe/wp-content/themes/twentytwentytwo/scorephp.php">
+<form method="GET" action="wp-content/themes/twentytwentytwo/scorephp.php">
 <div class="form-group">
 <div class="input-group mb-3">
   <select id="list" name="name" class="custom-select" style="text-align:right;">
@@ -44,7 +44,7 @@ include 'scorephp.php';
 </div>
 </div>
 <input type="submit" value="ثبت نمره" style="width:600px;" class="btn btn-primary btn-lg btn-block container-fluid d-flex align-items-center justify-content-center">
-<a style="padding-top: 10px;" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover container-fluid d-flex align-items-center justify-content-center" href="http://blueuserswordpress.000.pe/فرم-ثبت-نام/">ثبت نام</a>
+<a style="padding-top: 10px;" class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover container-fluid d-flex align-items-center justify-content-center" href="فرم-ثبت-نام/">ثبت نام</a>
 </form>
 </div>
 </div>
