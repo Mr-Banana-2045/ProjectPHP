@@ -73,7 +73,7 @@ if (isset($_GET['pish']) && isset($_GET['name']) && isset($_GET['action'])) {
         if ($connection->checkUserExists($name, $role)) {
             $result = $connection->updatePassword($name, $role, $newPassword);
             if ($result) {
-                header("Location: http://blueuserswordpress.000.pe/account/");
+                header("Location: account/");
             } else {
                 echo "Failed to update password.";
             }
